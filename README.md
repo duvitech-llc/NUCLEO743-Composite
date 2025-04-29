@@ -44,9 +44,9 @@ This project demonstrates a **USB Composite Device** on the **STM32 NUCLEO-H743Z
 ## Testing
 
 ### HID Mouse
-The firmware automatically sends mouse movements in a square pattern. Observe the cursor moving on your screen.
+The firmware automatically sends mouse movements ot the right. Observe the cursor moving on your screen.
 
 ### VCP Communication
 1. Open a terminal emulator (e.g., PuTTY, Tera Term, `screen`)
 2. Set the correct COM port and baud rate (`115200`)
-3. The device echoes back received characters
+3. The device outputs Hello when user button is pushed.
